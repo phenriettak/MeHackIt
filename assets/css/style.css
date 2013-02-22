@@ -185,7 +185,7 @@ body {
 .header {
     margin-top:110px;
     height:366px;
-    background:url(../img/bg.jpg) top center no-repeat;
+    background:url(../img/bg.jpg) top center no-repeat #7c4ae2;
     background-size:cover;
     color:#fff;
     text-align:center;
