@@ -7,17 +7,16 @@ Mehackit is a place for you to explore and find exercises, craft, events and any
 
 
 Hey you! 
-Let me hack it is a place to discover events around you and fun stuff to play and learn. Feel free to look around! 
-If you'd like something here that you can't find, let us know 
+Let me hack it is a site for kids to discover events and fun stuff to play and learn. 
 
 
-Parents: This site is made for children to discover interesting things in technology, crafts, design and anything in the 
+This site is made for children to discover interesting things in technology, crafts, design and anything in the 
 universe. We'll do our best to keep any content not belonging here out, if you see something, do notify us. 
 Have tips? Let us know! 
 
-Explore page: DIY FTW! 
+Explore page: DIY FTW! (once I get an explore page done)
 There's almost no rules here. You can build a new widget on this page, embed a game or picture from elsewhere, or bring in 
-anything you think kids would get excited about. You can submit a tip from the home page, or find our repository
+anything you think kids would get excited about. Tell us , or find our repository
 at https://github.com/phenriettak/MeHackIt. 
 We don't generate content, but you're free to! We just bring all the cool stuff we find here on display for a while. 
 If the feature or link is loved, it'll stay longer as our guest.  
