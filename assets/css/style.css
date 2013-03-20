@@ -184,7 +184,7 @@ body {
 
 .header {
     margin-top:110px;
-    height:366px;
+    min-height:366px;
     background:url(../img/bg.jpg) top center no-repeat #7c4ae2;
     background-size:cover;
     color:#fff;
@@ -244,10 +244,10 @@ body {
     font-weight:300;
 }
 
-.signme form {
+.signme form, .signme-top form {
     margin:30px;
 }
-.signme input {
+.signme input, .signme-top input {
     border-radius:2px;
     background:#fff;
     padding:0.8em 1em;
@@ -257,7 +257,7 @@ body {
     line-height:1.2;
 }
 
-.signme input[type=submit] {
+.signme input[type=submit], .signme-top input[type=submit] {
     background:#3b2073;
     color:#fff;
     padding:0.8em 1.5em;
@@ -297,4 +297,15 @@ footer .span8 .btn-twitter {
 
 footer .span8 .btn-github {
     background:#40464a;
+}
+
+
+nav {
+  float: right;
+  line-height: 60px;
+  font-size: 1.2em;
+}
+
+nav a {
+  margin-left: 20px;
 }
