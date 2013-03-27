@@ -309,3 +309,26 @@ nav {
 nav a {
   margin-left: 20px;
 }
+
+/* Coaches
+------------------------- */
+.coaches {
+  width: 940px;
+}
+
+.coaches a {
+  font-size:16px;
+  border:0;
+  margin-bottom:30px;
+  line-height:1.5;
+}
+
+.coaches .grid_3 {
+  height: 69px;
+  width: 220px;
+  margin-right: 20px;
+  display: inline;
+  float: left;
+}
+
+
