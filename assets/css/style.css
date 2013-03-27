@@ -310,27 +310,27 @@ nav a {
   margin-left: 20px;
 }
 
-/* Coaches
+/* Team
 ------------------------- */
-.coaches {
+.team {
   width: 940px;
 }
 
-.coaches img {
+.team img {
   float:left;
   width:48px;
   border:1px solid #ddd;
   margin-right:15px;
 }
 
-.coaches a {
+.team a {
   font-size:16px;
   border:0;
   margin-bottom:30px;
   line-height:1.5;
 }
 
-.coaches .grid_3 {
+.team .grid_3 {
   height: 69px;
   width: 220px;
   margin-right: 20px;
@@ -338,7 +338,7 @@ nav a {
   float: left;
 }
 
-.coaches .grid_3:nth-child(4n+4) {
+.team .grid_3:nth-child(4n+4) {
   margin-right:0;
 }
 
