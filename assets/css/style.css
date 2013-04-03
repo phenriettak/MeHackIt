@@ -310,6 +310,7 @@ nav a {
   margin-left: 20px;
 }
 
+<<<<<<< HEAD
 /* Team
 ------------------------- */
 .team {
@@ -344,3 +345,63 @@ nav a {
 
 
 
+=======
+
+.event {
+  box-shadow:0 2px 3px #ddd;
+  border:1px solid #eee;
+  height:200px;
+  background-position:0 -100px;
+  margin-bottom:40px;
+  -webkit-transition:0.4s box-shadow;
+}
+
+.event:hover {
+  -webkit-transition:0.4s all;
+  box-shadow:0 2px 3px #999;
+  border-color: #ddd;
+}
+
+.event.tba {
+  box-shadow:none;
+  border:1px solid #eee;
+}
+
+.event.tba h3 {
+  color:#888;
+  border-color:#888;
+}
+
+.event.tba h3 small {
+  color:#888;
+}
+
+.event h3 {
+  margin-top:129px;
+  padding:10px 15px;
+  background:#fff;
+  border-top:3px solid #7244D0;
+  font-weight:normal;
+}
+
+.event h3 small {
+  line-height:1.5;
+  display:block;
+  font-size:80%;
+  color:#1B88CB;
+  font-weight:150;
+}
+.helsinki { 
+  font-size: 100px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+{
+  .helsinki h1
+  margin: 0;
+  line-height: 1.25;
+  color: #7244D0;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+>>>>>>> helsinki page changes
