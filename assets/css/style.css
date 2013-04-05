@@ -384,9 +384,9 @@ nav a {
 }
 
 .event h3 small {
-  line-height:1.5;
+  line-height:1;
   display:block;
-  font-size:80%;
+  font-size:70%;
   color:#1B88CB;
   font-weight:150;
 }
