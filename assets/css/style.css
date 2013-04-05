@@ -349,7 +349,7 @@ nav a {
 .event {
   box-shadow:0 2px 3px #ddd;
   border:1px solid #eee;
-  height:200px;
+  height:150px;
   background-position:0 -100px;
   margin-bottom:40px;
   -webkit-transition:0.4s box-shadow;
