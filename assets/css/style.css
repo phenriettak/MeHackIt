@@ -131,8 +131,7 @@ body {
   font-size: 15px;
   line-height: 1.4;
 }
-
-
+ 
 /* Featurettes
 ------------------------- */
 
@@ -397,11 +396,14 @@ nav a {
   line-height: 1;
   letter-spacing: -1px;
 }
-{
-  .helsinki h1
+
+.helsinki h1 {
   margin: 0;
   line-height: 1.25;
   color: #7244D0;
   text-shadow: 0 1px 1px rgba(0,0,0,.4);
 }
->>>>>>> helsinki page changes
+
+.events .span4 {
+    margin-left: 5px;
+}
