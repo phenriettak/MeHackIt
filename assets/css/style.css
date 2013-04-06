@@ -377,10 +377,12 @@ nav a {
 
 .event h3 {
   margin-top:129px;
+  margin-bottom:0;
   padding:15px 25px;
   background:#fff;
   border-top:3px solid #7244D0;
   font-weight:normal;
+  line-height: 28px;
 }
 
 .event h3 small {
@@ -389,6 +391,7 @@ nav a {
   font-size:70%;
   color:#1B88CB;
   font-weight:150;
+  margin-top: 10px;
 }
 .helsinki { 
   font-size: 100px;
@@ -405,5 +408,10 @@ nav a {
 }
 
 .events .span4 {
-    margin-left: 5px;
+  margin-left: 5px;
+  margin-bottom: 2em;
+}
+
+.events .span4:hover {
+  text-decoration: none;
 }
