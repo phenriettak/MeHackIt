@@ -415,3 +415,14 @@ nav a {
 .events .span4:hover {
   text-decoration: none;
 }
+
+#events-map {
+  width: 100%;
+  height: 440px;
+  margin-bottom: 20px;
+}
+
+/* Twitter bootstrap fix */
+#events-map img {
+  max-width: none;
+}

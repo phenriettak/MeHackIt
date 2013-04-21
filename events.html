@@ -17,6 +17,8 @@
     <!--[if lt IE 9]>
       <script src="../assets/js/html5shiv.js"></script>
     <![endif]-->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/wzd6hej.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://mehackit.org/assets/img/fb.png">
@@ -25,6 +27,38 @@
                     <link rel="apple-touch-icon-precomposed" href="http://mehackit.org/assets/img/fb.png">
                                    <link rel="shortcut icon" href="./assets/img/favicon.png">
 
+    <script>
+      function initialize() {
+        var geocoder = new google.maps.Geocoder();
+        var myLatlng = new google.maps.LatLng(25.363882,10.044922);
+        var mapOptions = {
+          zoom: 2,
+          center: myLatlng,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(document.getElementById("events-map"), mapOptions);
+
+        $(".events [data-address]").each(function() {
+          geocoder.geocode( { 'address': $(this).data("address")}, function(results, status) {
+            if (status == google.maps.GeocoderStatus.OK) {
+              var marker = new google.maps.Marker({
+                map: map,
+                position: results[0].geometry.location
+              });
+            } else {
+              // alert("Geocode was not successful for the following reason: " + status);
+            }
+          });
+        });
+        /* var marker = new google.maps.Marker({ */
+        /*     position: myLatlng, */
+        /*     map: map, */
+        /*     title: 'Hello World!' */
+        /* }); */
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
   </head>
   <body>
     <div id="background">
@@ -70,27 +104,26 @@
         </div>
     </section>
 
-    
     <div class="container marketing">
+      <div id="events-map"></div>
       <section class="events">
         <div>
-          <a href="./helsinki.html" class="omega event span4" style="background:url(./assets/img/fionasmall.JPG) 0px -2px no-repeat; background-size:100%">
+          <a href="./helsinki.html" class="omega event span4" style="background:url(./assets/img/fionasmall.JPG) 0px -2px no-repeat; background-size:100%" data-address="Helsinki, Finland">
           <h3>Helsinki, Finland<small>JUNE 4TH-5TH 2013</small></h3>
           </a>
           <a href="./about.html" class="omega event span4" style="background:url(./assets/img/bg.jpg) 0px -210px no-repeat;">
           <h3>Your city? <small>Get in touch!</small></h3>
           </a>
 
-          <a href="http://raspberryjam.org.uk/" class="omega event span4" style="background:url(./assets/img/raspberryjam.png) 0px -40px no-repeat;">
-                <h3>#RaspberryJam <small> enthusiasts of the Raspberry Pi computer</small></h3>
-              </a> 
+          <a href="http://raspberryjam.org.uk/" class="omega event span4" style="background:url(./assets/img/raspberryjam.png) 0px -40px no-repeat;" data-address="London, UK">
+            <h3>#RaspberryJam <small> enthusiasts of the Raspberry Pi computer</small></h3>
+          </a> 
 
-              <a href="http://coderdojo.com/" class="omega event span4" style="background:url(./assets/img/coderdojo.jpg) 0px -15px no-repeat"><h3>Coderdojo <small> coderdojos and their events globally</small></h3>
+              <a href="http://coderdojo.com/" class="omega event span4" style="background:url(./assets/img/coderdojo.jpg) 0px -15px no-repeat" data-address="Dublin, Ireland"><h3>Coderdojo <small> coderdojos and their events globally</small></h3>
 
-<a href="http://www.hackidemia.com/" class="omega event span4" style="background:url(./assets/img/hackidemiaworld.png) 0px -40px no-repeat;">
-                <h3> Hackidemia workshops <small> around the world! </small></h3>
-              </a>
-               
+          <a href="http://www.hackidemia.com/" class="omega event span4" style="background:url(./assets/img/hackidemiaworld.png) 0px -40px no-repeat;">
+            <h3> Hackidemia workshops <small> around the world! </small></h3>
+          </a>
 
         </div>
       </section>
