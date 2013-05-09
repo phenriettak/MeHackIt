@@ -10,6 +10,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+p {
+    font-size:16px;
+    line-height:1.35;
+    margin-bottom:1.2em;
+}
+
 
 
 /* CUSTOMIZE THE NAVBAR
@@ -181,6 +187,7 @@ body {
     text-shadow:none;
 }
 
+
 .header {
     margin-top:110px;
     min-height:366px;
@@ -203,7 +210,7 @@ body {
     font-weight:normal;
     text-transform:uppercase;
 }
-
+p
 .header div p {
     font-size:22px;
     font-weight:300;
@@ -236,6 +243,11 @@ body {
 
 .signme h2 {
     font-weight:400;
+}
+
+.signme a {
+    background:#fff;
+    padding:5px;
 }
 
 .signme p {
@@ -309,7 +321,6 @@ nav a {
   margin-left: 20px;
 }
 
-<<<<<<< HEAD
 /* Team
 ------------------------- */
 .team {
@@ -342,17 +353,14 @@ nav a {
   margin-right:0;
 }
 
-
-
-=======
-
 .event {
-  box-shadow:0 2px 3px #ddd;
-  border:1px solid #eee;
-  height:150px;
+  box-shadow:0 2px 3px #ccc;
+  height:240px;
   background-position:0 -100px;
   margin-bottom:40px;
   -webkit-transition:0.4s box-shadow;
+  overflow:hidden;
+  position:relative;
 }
 
 .event:hover {
@@ -376,13 +384,16 @@ nav a {
 }
 
 .event h3 {
-  margin-top:129px;
   margin-bottom:0;
   padding:15px 25px;
   background:#fff;
   border-top:3px solid #7244D0;
   font-weight:normal;
   line-height: 28px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
 }
 
 .event h3 small {
@@ -408,7 +419,6 @@ nav a {
 }
 
 .events .span4 {
-  margin-left: 5px;
   margin-bottom: 2em;
 }
 
