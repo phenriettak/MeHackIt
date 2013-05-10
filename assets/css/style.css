@@ -190,7 +190,6 @@ p {
 
 .header {
     margin-top:110px;
-    min-height:366px;
     background:url(../img/bg.jpg) top center no-repeat #7c4ae2;
     background-size:cover;
     color:#fff;
@@ -200,7 +199,7 @@ p {
 
 .header div {
     max-width:760px;
-    padding:80px 0 0 0;
+    padding:80px 0 80px 0;
     margin:0 auto;
     font-weight:400;
 }
@@ -356,11 +355,12 @@ nav a {
 .event {
   box-shadow:0 2px 3px #ccc;
   height:240px;
-  background-position:0 -100px;
   margin-bottom:40px;
   -webkit-transition:0.4s box-shadow;
   overflow:hidden;
   position:relative;
+  background-size:cover;
+  background-position:center;
 }
 
 .event:hover {
