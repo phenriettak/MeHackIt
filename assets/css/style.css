@@ -436,3 +436,24 @@ nav a {
 #events-map img {
   max-width: none;
 }
+
+/* Sponsor logos
+------------------------- */
+
+.clear {
+    clear: both;
+}
+
+.sponsorLogos {
+    float: left;
+    margin-right: 40px;
+    margin-top:40px;
+}
+
+.lastSponsorLogo {
+    margin-right: 0;
+}
+
+.sponsorLogos img {
+    width: 155px;
+}
