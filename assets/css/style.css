@@ -446,7 +446,7 @@ nav a {
 
 .sponsorLogos {
     float: left;
-    margin-right: 40px;
+    margin-right: 55px;
     margin-top:40px;
 }
 
@@ -455,5 +455,13 @@ nav a {
 }
 
 .sponsorLogos img {
-    width: 155px;
+  width: 160px;
+}
+
+.sponsorLogos.aaltoes img {
+  width: 200px;
+}
+
+.sponsorLogos.addlab img, .sponsorLogos.holvi img {
+  width: 100px;
 }
