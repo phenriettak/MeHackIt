@@ -439,28 +439,19 @@ nav a {
 /* Sponsor logos
 ------------------------- */
 
-.clear {
-    clear: both;
-}
-
 .sponsorLogos {
-    float: left;
-    margin-right: 55px;
-    margin-top:40px;
-}
-
-.lastSponsorLogo {
-    margin-right: 0;
+    text-align: center;
 }
 
 .sponsorLogos img {
-  width: 160px;
+  display: inline-block;
+  margin: 20px;
 }
 
-.sponsorLogos.aaltoes img {
+.sponsorLogos img.narrow {
+  height: 100px;
+}
+
+.sponsorLogos img.wide {
   width: 200px;
-}
-
-.sponsorLogos.addlab img, .sponsorlogos.KIDE img, .sponsorLogos.holvi img {
-  width: 100px;
 }
